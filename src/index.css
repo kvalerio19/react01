@@ -31,6 +31,12 @@ code {
 }
 
 .older{
-  font-style: bold;
+  font-style: 800;
   text-decoration: underline;
+}
+
+.image-circle {
+  width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
