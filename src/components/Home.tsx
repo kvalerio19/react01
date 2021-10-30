@@ -8,6 +8,13 @@ import { Hello } from './Hello';
 import { Nav } from './Nav';
 import { Todo } from './Todo';
 import { Wrapper } from './Wrapper';
+import Icon from 'react-native-vector-icons/FontAwesome';
+import { Button } from 'react-native-elements';
+import Search from './Search';
+import SearchBar from './Search';
+
+
+
 
 export type User = {
   name: string;
@@ -42,10 +49,12 @@ export const Home:React.FC = () => {
 
 
     <Todo/>
+    <SearchBar/>
     {/* <Wrapper>
       <Counter />
       <p>Hola! Este es un ejemplo de un elemento children</p>
     </Wrapper> */}
+    
     </div>
 		</React.Fragment>
 };
